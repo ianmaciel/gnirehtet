@@ -15,8 +15,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <receiver
             android:name="com.genymobile.gnirehtet.GnirehtetControlReceiver"
-            android:exported="true"
-            android:permission="android.permission.WRITE_SECURE_SETTINGS">
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.genymobile.gnirehtet.START" />
                 <action android:name="com.genymobile.gnirehtet.STOP" />
